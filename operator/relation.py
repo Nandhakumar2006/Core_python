@@ -1,0 +1,5 @@
+score=int(input("enter the civil the score"))
+Assert=int(input("tell the assert details"))
+print("to get the loan 1L",(score>=650))
+print("to get the business loan ",(score>=800 and Assert>=8))
+print("to get the home loan",(score>=900 or Assert>=8))

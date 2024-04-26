@@ -1,0 +1,14 @@
+name="raja"
+name1="ram"
+if(name==name1):
+    {
+        print("harish")
+    }
+elif(name1==name1):
+    {
+        print("nandha")
+    }
+else:
+    {
+        print("kumar")
+    }

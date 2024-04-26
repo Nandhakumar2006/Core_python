@@ -1,0 +1,12 @@
+data=10
+data2=5
+result=data+data2
+print("addition",result)
+result=data-data2
+print("subtraction",result)
+result=data*data2
+print("multiplication",result)
+result=data/data2
+print("division",result)
+result=data%data2
+print("modulo",result)
