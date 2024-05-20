@@ -8,34 +8,34 @@
 # s=sam()
 # s.aa(10)
 
-class over:
-    def load(self,a=None,b=None,c=None):
-        if a!=None and b!=None and c!=None:
-            return a+b+c
-        elif a!=None and b!=None:
-            return a+b
-        else:
-            return a
-o=over()
+# class over:
+#     def load(self,a=None,b=None,c=None):
+#         if a!=None and b!=None and c!=None:
+#             return a+b+c
+#         elif a!=None and b!=None:
+#             return a+b
+#         else:
+#             return a
+# o=over()
 
-print("Sum",o.load(10,20,30))
-print("sum1",o.load(10,20)) 
-print("sum",o.load(10))
+# print("Sum",o.load(10,20,30))
+# print("sum1",o.load(10,20)) 
+# print("sum",o.load(10))
 
 
 #multiple args passing 
-# class multiple:
-#     def add(self,*args):
-#         sum=40;
-#         for i in args:
-#             sum+=i
+class multiple:
+    def add(self,*args):
+        sum=40;
+        for i in args:
+            sum+=i
             
-#         print("add values:",sum)
+        print("add values:",sum)
             
-# m=multiple()
-# #m.add(20)
-# m.add(40,50)
-# m.add(40,50,100)
-# m.add(40,50,100,200)
-# m.add(10,20,60,100,150)
-# m.add(10,20,30,40,50,60,70)
+m=multiple()
+#m.add(20)
+m.add(40,50)
+m.add(40,50,100)
+m.add(40,50,100,200)
+m.add(10,20,60,100,150)
+m.add(10,20,30,40,50,60,70)
