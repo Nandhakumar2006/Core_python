@@ -13,7 +13,7 @@ class Card(Account):
         self.transactions=[]
         self.accountno=anum
         self.accountholder=ahold
-        self.accountbal=abal
+        self.accountbalance=abal
     def __add__(self,amt):
         self.accountbal+=amt
         print(amt,"deposited to",self.accountholder)

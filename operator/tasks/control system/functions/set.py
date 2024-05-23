@@ -15,7 +15,7 @@
 # print(ss) 
 
 #iteratable
-a={"nandhakumar","navin","krishna","mohan","mohan","gokul"}
+a={"nandhakumar","navin","mohan","gokul"}
 li=["aravind"]
 a.update(li)
 print(a)
@@ -23,15 +23,10 @@ a.discard(2)
 print(a)
 
 # #pop method
-# s={"nandhakumar","navin","krishna","mohan","mohan","gokul"}o0
-# s1=s.pop()
-# print(s1)
-# print(s)
-
 # #access method
-# a={"nandhakumar","navin","krishna","mohan","mohan","gokul"}
-# for i in a:
-#     print(i)
+a={"nandhakumar","navin","krishna","mohan","mohan","gokul"}
+for i in a:
+    print(i)
 
 # #check the set is present or not
 # a={"nandhakumar","navin","krishna","mohan","mohan","gokul"}

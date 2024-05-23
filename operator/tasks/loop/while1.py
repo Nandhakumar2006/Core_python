@@ -14,6 +14,8 @@ while hire>0:
     poc=int(input("tell us how many project done on"+skill+":"))
     if(skill=="java" or skill =="python") and poc>=4:
         print("you are recriuted to our company")
+    elif(skill=="HTML") and poc>=2:
+        print("you are transfered to the sub company of one of ours")
         hire-=1
     else:
         print("try to uptade skill /work more poc")

@@ -20,8 +20,10 @@ def debit(money=0,pos=0):
         print(money,"debuted")
         return balance[pos]
     else:print("can't debit")
-
+    
 hai=debit(1000,1)
 print(hai)
+
+
 
  
