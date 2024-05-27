@@ -8,6 +8,7 @@ class Jaysurya(Stocks):
     def __init__(self,hey):
         self.products=array('i')
         self.products.extend(hey)
+        
     def search(self):
         budget=int(input("Enter the price  search:"))
         for x in self.products:
